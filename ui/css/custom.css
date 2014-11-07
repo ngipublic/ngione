@@ -2,7 +2,11 @@
  * 在这里自定义你的CSS代码
  */
 /*首页左侧侧边栏悬浮效果*/
-
+/**
+ *
+ *  first input
+ *
+**/
 @media (min-width: 1200px){
 	.bs-docs-sidebar.affix-bottom, .bs-docs-sidebar.affix,.bs-docs-sidebar.affix-tp{
 	width: 293px;
@@ -126,7 +130,7 @@ left:0;
 top:0;
 width:73px;
 height:73px;
-font-size:18px; 
+font-size:18px;
 letter-spacing: 2px;
 color:#000;
 font-weight:bold;
@@ -224,7 +228,7 @@ color: #0b445b;
 transition: all .3s ease;
 }
 #sidebar-home {
-border: 1px solid #dfdfdf; 
+border: 1px solid #dfdfdf;
 background: #fff;
 -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
@@ -250,7 +254,7 @@ text-align: center;
 margin-top: 30px;
 border-top: 1px solid #e6eaed;
 color:#0b445b;
-text-align: center; 
+text-align: center;
 }
 #sidebar-home {
 	-webkit-transition: all .3s ease-in-out;
@@ -262,8 +266,8 @@ background-color: #fff;
 /*以上为首页左侧边栏样式*/
 /*首页幻灯片样式*/
 .flexslider .slides > li {
-	display: none; 
-	-webkit-backface-visibility: hidden;  
+	display: none;
+	-webkit-backface-visibility: hidden;
 	overflow: hidden;
 } /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {
@@ -295,7 +299,7 @@ z-index: 5;
 display: inline-block;
 }
 #qupu-carousel {
-	margin-top: 112px; 
+	margin-top: 112px;
 }
 .carousel-caption {
 	color: #000;
@@ -313,7 +317,7 @@ margin-right: -14px;
 }
 .post-list .post-row {
 float: left;
-width: 100%; 
+width: 100%;
 margin-bottom: 35px;
 position: relative;
 }
@@ -370,7 +374,7 @@ text-align: left;
 }
 
 .post-meta span.post-author-avatar {
- margin-right: 0px; 
+ margin-right: 0px;
 }
 .post-author-avatar img{
   border-radius: 50%;
